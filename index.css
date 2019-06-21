@@ -1,0 +1,231 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+/* 第一页 */
+.page1 {
+	background: url(image/dabeijing.png) no-repeat;
+	background-size: cover;
+}
+
+.page1 img {
+	position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+    display: block;
+    width: 1rem;
+	/* height: 23.5px; */
+    left: 0px;
+    top: 0px;
+}
+
+.page1 img:nth-of-type(2) {
+	width: 4rem;
+	height: auto;
+	top: .5rem;
+	right: rem;
+}
+.page1 img:nth-of-type(3) {
+	width:rem;
+	height: 3rem;
+	left:rem;
+	bottom: 1rem;
+}
+.page1 img:nth-of-type(4) {
+	width: 0.7rem;
+	height:auto;
+	left: 1.7rem;
+	bottom:4rem;
+	z-index:126
+}
+.page1 img:nth-of-type(5) {
+	width:rem;
+	height: rem;
+	right:0.3rem;
+	bottom: 3.3rem;
+	z-index:123;
+}
+.page1 img:nth-of-type(6) {
+	width: rem;
+	right: .6rem;
+	bottom: 0.01rem;
+	z-index:120;
+}
+.page1 img:nth-of-type(7) {
+	width: rem;
+	height:3rem;
+	right: rem;
+	bottom: 0.0rem;
+}
+.page1 img:nth-of-type(8) {
+	width: 4rem;
+	height: rem;
+	right: rem;
+	bottom:0.01rem;
+}
+.page1 .img01{
+	animation: fadeInLeftBig 1s;
+}
+.page1 .img02{
+	animation: bounceIn 1s;
+}
+.page1 .img03{
+	animation: rollIn 2s;
+}
+.page1 .img04{
+	animation: bounceInUp 1s;
+}
+.page1 .img07{
+	animation: rubberBand 1s;
+}
+.page1 .img08{
+	animation: rubberBand 1s;
+}
+/* PAGE2 */
+.page2 {
+	background: url(image/dabeijing.png) no-repeat;
+	background-size: cover;
+}
+
+.page2 img {
+	position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+    display: block;
+    width: 1rem;
+	/* height: 23.5px; */
+    left: 0px;
+    top: 0px;
+}
+
+.page2 img:nth-of-type(2) {
+	width: 4rem;
+	height: auto;
+	top: .5rem;
+	right: rem;
+}
+.page2 img:nth-of-type(3) {
+	width:rem;
+	height: 3rem;
+	left:rem;
+	bottom: 1rem;
+}
+ /* .page2 img:nth-of-type(4) {
+	width: 0.7rem;
+	height:auto;
+	left: 1.7rem;
+	bottom:4rem;
+	z-index:126
+}  */
+.page2 img:nth-of-type(4) {
+	width:rem;
+	height: rem;
+	right:0.3rem;
+	bottom: 3.3rem;
+	z-index:123;
+}
+.page2 img:nth-of-type(5) {
+	width: rem;
+	right: .6rem;
+	bottom: 0.01rem;
+	z-index:120;
+}
+.page2 img:nth-of-type(6) {
+	width:0rem;
+	height:3rem;
+	right: rem;
+	bottom: 0.0rem;
+}
+.page2 img:nth-of-type(7) {
+	width: 4rem;
+	height:3rem;
+	right: rem;
+	bottom: 0.0rem;
+}
+.page2 img:nth-of-type(8) {
+	width: rem;
+	height: 5rem;
+	right: 0.6rem;
+    bottom: 1.8rem;
+	z-index: 333;
+	color: rgb(0,0,0,0.3)
+}
+.page2 .img01{
+	animation: fadeInLeftBig 3s;
+}
+.page2 .img02{
+	animation: heartBeat 3s;
+}
+.page2 .img03{
+	animation: fadeInLeftBig 3s;
+}
+.page2 .img04{
+	animation: fadeInLeftBig 3s;
+}
+.page2 .img05{
+	animation: fadeInLeftBig 3s;
+}
+.page2 .img08{
+	animation: fadeInLeftBig 3s;
+}
+.page3 {
+	background: url(image/dabeijing.png) no-repeat;
+	background-size: cover;
+}
+.page3 img:nth-of-type(1) {
+    display: block;
+    width: 1rem;
+	/* height: 23.5px; */
+    left: 0px;
+    top: 0px;
+}
+
+.page3 img:nth-of-type(2) {
+	width: rem;
+	height: auto;
+	top: .5rem;
+	right: rem;
+}
+.page3 img:nth-of-type(3) {
+	width:rem;
+	height: 3rem;
+	left:rem;
+	bottom: 1rem;
+}
+.page3 img:nth-of-type(4) {
+	right:0.3rem;
+	bottom: 3.3rem;
+}
+.page3 img:nth-of-type(5) {
+	right: .6rem;
+	bottom: 0.01rem;
+	z-index:443;
+}
+.page3 img:nth-of-type(6) {
+	height:3rem;
+	right: 0rem;
+	bottom: 0.0rem;
+	z-index:12;
+}
+.page3 img:nth-of-type(7) {
+	position: absolute;
+	width: 4rem;
+	right: 0rem;
+	bottom:0.01rem;
+	z-index:333
+}
+.page3 img:nth-of-type(8) {
+	position: absolute;
+	width: auto;
+	height: 4rem;
+	right: 0.6rem;
+    bottom: 1.8rem;
+	z-index: 666;
+	color: rgb(0,0,0,0.2)
+}
